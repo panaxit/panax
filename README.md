@@ -1,4 +1,4 @@
-# PanaxUI
+# Panax
 
 ## Wiki
-> https://github.com/panaxit/panaxui/wiki
+> [github.com/panaxit/panax/wiki](https://github.com/panaxit/panax/wiki)
