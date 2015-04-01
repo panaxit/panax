@@ -15,7 +15,7 @@
 
 # Intro
 
-Panax is a tool for automatic generation of business applications based on solid relational data models.
+Panax is a framework for automatic generation of business applications based on solid relational data models.
 
 A detailed configuration-driven framework allows a high customization level and complex business-rules.
 
