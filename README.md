@@ -23,7 +23,7 @@ Everything is done and reflected in the resulting app on-the-fly, allowing agile
 
 Panax' aim is to be agnostic of database vendor, backend and user interface, exploiting state-of-the-art technologies, like Node.js and AngularJS, and allowing high extensibility.
 
-> See: [[Panax' Service-oriented Architecture|Panax-SOA]]
+> See: [Wiki:Panax' Service-oriented Architecture](https://github.com/panaxit/panax/wiki/Panax-SOA)
 
 ## PanaxDB
 
@@ -148,4 +148,4 @@ Command-line interface
 
 > [wip]
 
-> See: [[PanaxCLI Usage|PanaxCLI]]
+> See: [Wiki: PanaxCLI Usage](https://github.com/panaxit/panax/wiki/PanaxCLI)
