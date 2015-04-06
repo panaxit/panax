@@ -19,7 +19,7 @@ Panax is a framework for generation of business applications based on solid rela
 
 A detailed configuration-driven approach allows a high customization level and complex business-rules.
 
-Everything is done and reflected immediately in the resulting app, allowing agile prototyping.
+Every change is reflected immediately in the resulting app, allowing agile prototyping.
 
 Panax' aim is to be agnostic of database vendor, backend and user interface, exploiting state-of-the-art technologies, like Node.js and AngularJS, and allowing high extensibility.
 
