@@ -36,6 +36,7 @@ It provides an API layer to interact with the database adding several _super pow
   - Configuration over coding
   - .. among others
 
+> More info: [Wiki:PanaxDB](https://github.com/panaxit/panax/wiki/PanaxDB)
 > ** Currently available for: MSSQL
 
 ### Entity XML
@@ -133,6 +134,8 @@ JavaScript abstraction module used primarly by PanaxUI to communicate with Panax
 ## PanaxUI
 
 User interface modules for Panax
+
+> More info: [Wiki:PanaxUI](https://github.com/panaxit/panax/wiki/PanaxUI)
 
 ### Backend (Node.js API)
 
