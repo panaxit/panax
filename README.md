@@ -38,8 +38,6 @@ It provides an API layer to interact with the database adding several _super pow
 
 > More info: [Wiki:PanaxDB](https://github.com/panaxit/panax/wiki/PanaxDB)
 
-> ** Currently available for: MSSQL
-
 ### Entity XML
 
 XML output for an entity consist of 3 parts:
