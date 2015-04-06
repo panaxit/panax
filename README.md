@@ -15,7 +15,7 @@
 
 # Intro
 
-Panax is a framework for automatic generation of business applications based on solid relational data models.
+Panax is a framework for generation of business applications based on solid relational data models.
 
 A detailed configuration-driven framework allows a high customization level and complex business-rules.
 
@@ -32,7 +32,7 @@ PanaxDB is the core technology of Panax, which is an enhancement layer (add-on) 
 It provides an API layer to interact with the database adding several _super powers_:
   - Advanced scaffolding
   - Metadata heuristics
-  - Automatic generation
+  - Automation capabilities
   - Configuration over coding
   - .. among others
 
