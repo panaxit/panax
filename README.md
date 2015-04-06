@@ -17,7 +17,7 @@
 
 Panax is a framework for generation of business applications based on solid relational data models.
 
-A detailed configuration-driven framework allows a high customization level and complex business-rules.
+A detailed configuration-driven approach allows a high customization level and complex business-rules.
 
 Everything is done and reflected in the resulting app on-the-fly, allowing agile prototyping.
 
