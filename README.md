@@ -37,6 +37,7 @@ It provides an API layer to interact with the database adding several _super pow
   - .. among others
 
 > More info: [Wiki:PanaxDB](https://github.com/panaxit/panax/wiki/PanaxDB)
+
 > ** Currently available for: MSSQL
 
 ### Entity XML
