@@ -23,7 +23,10 @@ Every change is reflected immediately in the resulting app, allowing agile proto
 
 Panax' aim is to be agnostic of database vendor, backend and user interface, exploiting state-of-the-art technologies, like Node.js and AngularJS, and allowing high extensibility.
 
+![Panax SOA use-cases](https://raw.githubusercontent.com/panaxit/panax/master/wiki_resources/panax_dataflow.png)
+
 > See: [Wiki:Panax' Service-oriented Architecture](https://github.com/panaxit/panax/wiki/Panax-SOA)
+> See: [Wiki:Panax' Dataflow](https://github.com/panaxit/panax/wiki/Panax-Dataflow)
 
 ## PanaxDB
 
