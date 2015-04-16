@@ -26,6 +26,7 @@ Panax' aim is to be agnostic of database vendor, backend and user interface, exp
 ![Panax SOA use-cases](https://raw.githubusercontent.com/panaxit/panax/master/wiki_resources/panax_dataflow.png)
 
 > See: [Wiki:Panax' Service-oriented Architecture](https://github.com/panaxit/panax/wiki/Panax-SOA)
+
 > See: [Wiki:Panax' Dataflow](https://github.com/panaxit/panax/wiki/Panax-Dataflow)
 
 ## PanaxDB
