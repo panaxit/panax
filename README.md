@@ -155,3 +155,37 @@ Command-line interface
 > [wip]
 
 > See: [Wiki: PanaxCLI Usage](https://github.com/panaxit/panax/wiki/PanaxCLI)
+
+## Glossary
+
+### Panax Jargon
+
+Old | New proposal | Description
+--- | --- | -----------
+**`Field`**       |                 | Database Column
+**`Table`**       |                 | Database Table
+**`Schema`**      |                 | Database Schema
+**`Instance`**    |                 | Database Instance
+`Catalog`         | **`Entity`**    | A consumable database unit. Expressed as: `[InstanceName.][SchemaName.]TableName`
+**`Metadata`**    |                 | Implicit and explicit information about an **Entity**
+**`Fields`**      |                 | Metadata form **Entity' fields**
+**`Layout`**      |                 | An ordered representation (ex. form, grid) from **Entity**' fields
+**`Structure`**   |                 | Combination of Entity' **Fields + Layout**
+**`Data`**        | *`DataModel`*?  | Actual data from **Entity' fields**
+**`Mode`**        |                 | A way to interact with a ~~Catalog~~ **Entity**
+**`ControlType`** |                 | A representation (ex. graphical) of an ~~Catalog~~ **Entity** or a *Field*
+
+### PanaxDB Commands
+
+Old | New | Description
+--- | --- | -----------
+`[$Table].config`           | `[#entity].config`      | 
+`[$Table].exportConfig`     | `[#entity].config`      | 
+`[$Table].clearConfig`      | `[#entity].clearConfig` | 
+`[$Ver:Beta_12].clearCache` | `[#entity].clearCache`    | 
+`[$Ver:Beta_12].getXmlData` | `[#entity].read` ~~`[#entity].get`~~ ~~`[#entity].getDataStructure`~~    | 
+`[$Table].getCatalogOptions`| `[#entity].list` ~~`[#entity].catalog`~~ ~~`[#entity].getTextValueList`~~ | 
+`[$Tables].UpdateDB`        | `[#entity].update` ~~`[#entity].cud`~~ ~~`[#entity].change`~~ | 
+`[$Metadata].rebuild`       | `[#panax].rebuildMetadata`   | 
+`[$Security].Authenticate`  | `[#panax].authenticate`   | 
+`[$Security].UserSitemap`   | `[#panax].sitemap`   | 
