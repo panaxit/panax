@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://raw.githubusercontent.com/panaxit/panax/master/wiki_resources/panax_roboto_condensed_bold.png" height="128" width="128" align="center">
+<img src="https://raw.githubusercontent.com/panaxit/panax/master/wiki_resources/panax_roboto_condensed_bold.png" align="center">
 </div>
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/panaxit/panax?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
