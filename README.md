@@ -33,7 +33,7 @@ Panax' aim is to be agnostic of database vendor, backend and user interface, exp
 
 PanaxDB is the core technology of Panax, which is an enhancement layer (add-on) for your relational database.
 
-It provides an API layer to interact with the database adding several _super powers_:
+It provides an API to interact with the database adding several _super powers_:
   - Advanced scaffolding
   - Metadata heuristics
   - Automation capabilities
@@ -42,13 +42,13 @@ It provides an API layer to interact with the database adding several _super pow
 
 > More info: [Wiki:PanaxDB](https://github.com/panaxit/panax/wiki/PanaxDB)
 
-### Entity XML
+### Panax Entity
 
-XML output for an entity consist of 3 parts:
+A Panax Entity consist of 3 parts:
   
-  1. **Fields** (schema): Contain all the columns' related metadata.
-  2. **Layout**: UI representation, order, grouping, displaying, etc.
-  3. **Data** (model): Data model itself.
+  1. **Fields**: Contain all the columns' related metadata.
+  2. **Layout**: UI representation: order, grouping, displaying, etc.
+  3. **Data**: Data model itself.
 
 Example call:
 
