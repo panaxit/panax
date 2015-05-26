@@ -181,13 +181,13 @@ Old | New proposal | Description
 
 Old | New | Description
 --- | --- | -----------
-`[$Table].config`           | `[#entity].config`      | 
-`[$Table].exportConfig`     | `[#entity].config`      | 
-`[$Table].clearConfig`      | `[#entity].clearConfig` | 
-`[$Ver:Beta_12].clearCache` | `[#entity].clearCache`    | 
-`[$Ver:Beta_12].getXmlData` | `[#entity].read` ~~`[#entity].get`~~ ~~`[#entity].getDataStructure`~~    | 
-`[$Table].getCatalogOptions`| `[#entity].list` ~~`[#entity].catalog`~~ ~~`[#entity].getTextValueList`~~ | 
-`[$Tables].UpdateDB`        | `[#entity].update` ~~`[#entity].cud`~~ ~~`[#entity].change`~~ | 
-`[$Metadata].rebuild`       | `[#panax].rebuildMetadata`   | 
-`[$Security].Authenticate`  | `[#panax].authenticate`   | 
-`[$Security].UserSitemap`   | `[#panax].sitemap`   | 
+`[$Table].config`           | `#entity.config`      | 
+`[$Table].exportConfig`     | `#entity.config`      | 
+`[$Table].clearConfig`      | `#entity.clearConfig` | 
+`[$Ver:Beta_12].clearCache` | `#entity.clearCache`    | 
+`[$Ver:Beta_12].getXmlData` | `#entity.read` ~~`[#entity].get`~~ ~~`[#entity].getDataStructure`~~    | 
+`[$Table].getCatalogOptions`| `#entity.list` ~~`[#entity].catalog`~~ ~~`[#entity].getTextValueList`~~ | 
+`[$Tables].UpdateDB`        | `#panax.persist` | 
+`[$Metadata].rebuild`       | `#panax.rebuildMetadata`   | 
+`[$Security].Authenticate`  | `#panax.authenticate`   | 
+`[$Security].UserSitemap`   | `#panax.sitemap`   | 
