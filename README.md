@@ -187,7 +187,7 @@ Old | New | Description
 `[$Table].clearConfig`      | `#entity.clearConfig` | 
 `[$Ver:Beta_12].clearCache` | `#entity.clearCache`    | 
 `[$Security].Authenticate`  | `#panax.authenticate`   | 
-`[$Security].UserSitemap`   | `#panax.sitemap`   | 
-`[$Ver:Beta_12].getXmlData` | `#entity.read` ~~`[#entity].get`~~ ~~`[#entity].getDataStructure`~~    | 
-`[$Table].getCatalogOptions`| `#entity.list` ~~`[#entity].catalog`~~ ~~`[#entity].getTextValueList`~~ | 
+`[$Security].UserSitemap`   | `#panax.getSitemap`   | 
+`[$Ver:Beta_12].getXmlData` | `#entity.read` | 
+`[$Table].getCatalogOptions`| `#entity.options` | 
 `[$Tables].UpdateDB`        | `#panax.persist` | 
