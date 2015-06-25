@@ -183,7 +183,7 @@ Old | New | Description
 --- | --- | -----------
 `[$Metadata].rebuild`       | `#panax.rebuildMetadata`   | 
 `[$Table].config`           | `#entity.config`      | 
-`[$Table].exportConfig`     | `#entity.config`      | 
+`[$Table].exportConfig`     | `#entity.exportConfig`      | 
 `[$Table].clearConfig`      | `#entity.clearConfig` | 
 `[$Ver:Beta_12].clearCache` | `#entity.clearCache`    | 
 `[$Security].Authenticate`  | `#panax.authenticate`   | 
