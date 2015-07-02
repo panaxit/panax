@@ -7,6 +7,7 @@
 # Contents
 
 - [Intro](#intro)
+- [Documentation](#documentation)
 - [PanaxDB](#panaxdb)
 - [PanaxUI](#panaxui)
 - [PanaxJS](#panaxjs)
