@@ -31,7 +31,11 @@ Panax' aim is to be agnostic of database vendor, backend and user interface, exp
 
 > See: [Wiki:Panax' Dataflow](https://github.com/panaxit/panax/wiki/Panax-Dataflow)
 
-## PanaxDB
+# Documentation
+
+Full API documentation available in: http://panax.readme.io/
+
+# PanaxDB
 
 PanaxDB is the core technology of Panax, which is an enhancement layer (add-on) for your relational database.
 
@@ -44,7 +48,7 @@ It provides an API to interact with the database adding several _super powers_:
 
 > More info: [Wiki:PanaxDB](https://github.com/panaxit/panax/wiki/PanaxDB)
 
-### Panax Entity
+## Panax Entity
 
 A Panax Entity consist of 3 parts:
   
@@ -103,7 +107,7 @@ Example UI output with AngularJS:
 
 > [coming soon]
 
-### Implicit business rules
+## Implicit business rules
 
 Data model has implicit business rules that can be defined with a combination of the following features:
 
@@ -113,18 +117,18 @@ Data model has implicit business rules that can be defined with a combination of
 
 Panax' heuristics detect this metadata and adapts the entity model accordingly.
 
-#### Examples
+### Examples
 
 > [coming soon]
 
-### Explicit business rules
+## Explicit business rules
 
 Explicit business rules can be defined via:
 
 1. Panax Configurations applied to entities
 2. Programmability at database level (constraints, triggers, etc)
 
-#### Panax Configurations (`config` procedure)
+### Panax Configurations (`config` procedure)
 
 XPath-like configurations to change XML output
 
@@ -132,25 +136,25 @@ Examples:
 
     > panax db config...........
 
-## PanaxJS
+# PanaxJS
 
 JavaScript abstraction module used primarly by PanaxUI to communicate with PanaxDB
 
-## PanaxUI
+# PanaxUI
 
 User interface modules for Panax
 
 > More info: [Wiki:PanaxUI](https://github.com/panaxit/panax/wiki/PanaxUI)
 
-### Backend (Node.js API)
+## Backend (Node.js API)
 
 > [wip]
 
-### Frontend (AngularJS GUI)
+## Frontend (AngularJS GUI)
 
 > [wip]
 
-## PanaxCLI
+# PanaxCLI
 
 Command-line interface
 
@@ -158,9 +162,9 @@ Command-line interface
 
 > See: [Wiki: PanaxCLI Usage](https://github.com/panaxit/panax/wiki/PanaxCLI)
 
-## Glossary
+# Glossary
 
-### Panax Jargon
+## Panax Jargon
 
 Old | New proposal | Description
 --- | --- | -----------
@@ -176,18 +180,3 @@ Old | New proposal | Description
 **`Data`**        | *`DataModel`*?  | Actual data from **Entity' fields**
 **`Mode`**        |                 | A way to interact with a ~~Catalog~~ **Entity**
 **`ControlType`** |                 | A representation (ex. graphical) of an ~~Catalog~~ **Entity** or a *Field*
-
-### PanaxDB Commands
-
-Old | New | Description
---- | --- | -----------
-`[$Metadata].rebuild`       | `#panax.rebuildMetadata`   | 
-`[$Table].config`           | `#entity.config`      | 
-`[$Table].exportConfig`     | `#entity.exportConfig`      | 
-`[$Table].clearConfig`      | `#entity.clearConfig` | 
-`[$Ver:Beta_12].clearCache` | `#entity.clearCache`    | 
-`[$Security].Authenticate`  | `#panax.authenticate`   | 
-`[$Security].UserSitemap`   | `#panax.getSitemap`   | 
-`[$Ver:Beta_12].getXmlData` | `#entity.read` | 
-`[$Table].getCatalogOptions`| `#entity.options` | 
-`[$Tables].UpdateDB`        | `#panax.persist` | 
